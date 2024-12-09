@@ -1,0 +1,469 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Epilogue-ExtraBold', sans-serif;
+}
+@font-face {
+    font-family: 'Epilogue-Regular';
+    src: url('fonts/Epilogue-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Epilogue-ExtraBold';
+    src: url('/fonts/Epilogue-ExtraBold') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Epilogue-Bold';
+    src: url('fonts/Epilogue-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Epilogue-Bold', sans-serif;
+}
+h6{
+	font-family: 'Epilogue-Regular', sans-serif;
+	font-size: 16px; 
+	color: #EF6D58;
+}
+a{
+	font-family: 'Epilogue-Regular', sans-serif;
+	font-size: 14px;
+}
+p{
+	font-family: 'Epilogue-Regular', sans-serif;
+	font-size: 16px;
+}
+ul {
+    font-family: 'Epilogue-Bold', sans-serif; 
+    color: #333;  
+    font-size: 16px; 
+    padding-left: 20px; 
+}
+.contact-details-table td {
+    font-family: 'Epilogue-Regular', sans-serif;
+    font-size: 16px; /* Adjust the font size */
+    font-weight: normal; /* Or 'bold' or 'lighter' depending on the desired weight */
+    color: #EF6D58; /* Change the font color */
+}
+.contact-details-table td span{
+    font-family: 'Epilogue-Regular', sans-serif;
+    font-size: 20px; /* Adjust the font size */
+    font-weight: normal; /* Or 'bold' or 'lighter' depending on the desired weight */
+    color: #000; /* Change the font color */
+}
+
+.count td{
+	font-family: 'Epilogue-Regular', sans-serif;
+    font-size: 20px; /* Adjust the font size */
+}
+.count td span{
+	font-family: 'Epilogue-Bold', sans-serif;
+    font-size: 40px; /* Adjust the font size */
+	color:#000 !important;
+}
+/* Apply Epilogue ExtraBold font */
+body {
+    font-family: 'Epilogue-ExtraBold', sans-serif;
+}
+/* navbar */
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+.navbar{
+	background-color: #28293e;
+	color: #fff !important;
+}
+.nav-item a{
+	color: #fff !important;
+}
+.nav-item {
+	padding-left: 10px;
+	padding-bottom: 10px;
+
+}
+.navbar-brand{
+	color: #fff !important;
+	padding-left: 10px;
+	font-family: 'Epilogue-Bold', sans-serif;
+	font-size: 24px;
+}
+#navbar button{
+	color: #fff !important;
+}
+
+#navbar .contact{
+
+
+	border-color: #28293E !important;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 6px;
+	font-size: 14px;
+	color: #fff !important;
+	border-color: #fff !important;
+}
+/* banner */
+#banner h6{
+	/* padding-left: 20px; */
+}
+#banner-container{
+	background-color: #28293E;
+	color: #fff !important;
+	padding-top: 160px;
+	padding-bottom: 80px;
+}
+#banner-row img{
+	max-width: 65%;
+	height: auto;
+	display: block;
+	padding-left: 30px;
+}
+
+#banner-row a{
+	font-family: 'Epilogue-Regular', sans-serif;
+	/* color: #000 !important; */
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px; 
+	font-size: 14px;
+}
+
+#banner-row .contact-link{
+	background-color: none !important;
+	color: #fff !important;
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px; 
+	padding-top: 5px;
+	text-decoration: none !important;
+	font-family: 'Epilogue-Regular', sans-serif;
+	font-size:14px;
+}
+#banner-row h1,p{
+	
+	padding-top: 20px;
+	/* text-align: center; */
+}
+#banner-col{
+	padding-left: 20px;
+}
+/* service */
+#service{
+	background-color: #FDF0E9;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+
+#service h1{
+	padding-bottom: 70px;
+}
+
+/* about us */
+
+#about{
+	background-color: #FDF0E9;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#about h1{
+	padding-bottom: 70px;
+}
+#about-col ul{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#about-col ul li{
+	padding-top: 25px;
+}
+
+/* errl */
+
+#reel{
+	background-color: #FDF0E9;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#contact
+{
+	background-color: #ffffff;
+	position: relative; 
+	height: 600px;
+}
+#contact .contact-map-container
+{
+	height: 100%; 
+	position: relative;
+}
+#contact .contact-map-container .contact-form
+{
+	position: absolute; 
+	top: 10%; left: 2%; width: 40%; 
+	background: rgba(255, 255, 255, 0.9); 
+	padding: 20px; border-radius: 8px; 
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact-details{
+	padding-top: 50px;
+	background-color: #FDF0E9;
+	padding-bottom: 50px;
+}
+
+/* about us */
+
+#how_we_work{
+	background-color: #FDF0E9;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#how_we_work h1, #how_we_work p{
+	padding-left: 20px;
+}
+#how_we_work h6{
+	
+	padding-left: 20px;
+    padding-top: 20px;
+}
+#how_we_work-col ul{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#how_we_work a
+{
+	color:#000 !important;
+	text-decoration: none;
+	padding-left:20px ;
+	font-size: 16px;
+	font-family: 'Epilogue-Regular', sans-serif;
+}
+ ul li{
+	padding-top: 15px;
+	list-style-type: none; 
+	font-family: 'Epilogue-Regular', sans-serif;
+}
+ul li span {
+    list-style-type: decimal;  
+    font-size: 72px;  
+      
+	margin-right:20px
+}
+.service-range li {
+	font-size: 20px;  
+}
+ 
+ol li {
+   
+    margin-bottom: 10px;  
+}
+
+#how_we_work ul {
+	padding-left: 20px;
+}
+ #count{
+	background-color: #FDF0E9;
+	padding-top: 80px;
+ }
+
+/* products */
+#product{
+	background-color: #FDF0E9;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.p-0
+{
+	padding :none !important
+}
+.m-0
+{
+	margin :none !important
+}
+.ml-0
+{
+	margin-left : none !important;
+}
+#product h1{
+	padding-bottom: 70px;
+}
+#product-col2 ul{
+	padding-top: 90px;
+}
+
+#product-col2 ul li{
+	padding-top: 15px;
+}
+/* footer */
+.mb-3{
+	padding-top: 10px;
+}
+
+@media only screen and (max-width:960px)
+{
+	.navbar-brand{
+		padding-left:0;
+	}
+}
+@media only screen and (max-width:760px)
+{
+	#banner-row img{
+		padding-top:20px;
+	}
+	.social-col{
+		width: 33%;
+	}
+}
+.navbar-light .navbar-nav .nav-link
+{
+	padding-right: 4.5rem;
+	font-family: 'Epilogue-Regular', sans-serif;
+	font-size: 16px;
+}
+.btn-primary
+{
+	background-color:#EF6D58;
+	color: #ffffff;
+}
+.icon-circle {
+	width: 60px;  
+	height: 60px;  
+	border-radius: 50%;  
+	background-color: #4CAF50;  
+	display: flex;  
+	justify-content: center;  
+	align-items: center; /* Vertically center the icon */
+	color: white;  
+	font-size: 24px;  
+  }
+  
+  .icon-circle i {
+	font-size: 20px;  
+  }
+
+  footer a, footer span{
+	font-family: 'Epilogue-Regular', sans-serif;
+	font-size: 16px; 
+	color: #000;
+  }
+  hr{
+	margin:0;
+  }
+  .logo
+  {
+	background-image: url('../images/Polygon1.png'); /* Path to your image */
+	/* display: block; Makes the span act like a block element */
+	
+	width: 45.7px;
+	height: 43.4px;
+	background-size: cover; /* Ensures the image covers the entire span */
+	background-position: center; /* Centers the image */
+	color: white; /* Set the text color to white for contrast */
+	padding: 7px; /* Add some padding for visual effect */
+	box-sizing: border-box; /* Ensures padding is included in the width */
+  }
+  .logo img{
+	padding : 5px;
+  }
+  video{
+	width: 470px;
+height: 368px;
+  }
+
+  /* Wrapper to contain the image and the overlay */
+.image-container {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* The image that will serve as the background */
+  .image {
+	width: 100%;
+	height: auto;
+	display: block;
+  }
+  
+  /* The span that will appear at the bottom-left corner */
+  .image-overlay {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top:80px;
+	background-color: #EF6D58;
+	padding: 10px;
+	border-top-right-radius: 8px; /* Optional: rounded top-right corner */
+	display: inline-block;
+	width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+  
+  /* The image inside the span */
+  .overlay-image {
+	width: 40px; /* Adjust the size of the image inside the span */
+	height: 40px;
+	object-fit: cover;
+	border-radius: 50%; /* Makes the image inside the span circular */
+  }
+  #about-col, #reel-col
+  {
+	padding-left:20px;
+  }
+
+  #banner-col2 img {
+	width: 100%;
+	height: auto; /* Maintain aspect ratio */
+	display: block; /* Removes any extra space below the image */
+  }
+  #banner
+  {
+	background: #28293e
+  }
+  button{
+	color:#fff;
+  }
+ 
+
+   @media (max-width: 768px) {
+	
+	video{
+		/* position: absolute; */
+			width: 329px;
+			height: 212px;
+			margin-bottom:  20px;
+	}
+	#contact .contact-map-container .contact-form{
+		width:100%;
+	}
+	.contact-details-table td
+	{
+		padding:40px;
+		text-align: left;
+	}
+  }
+  .contact-form button{
+	float:right;
+  }
+  .icon-circle {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 45px; /* Adjust the size of the circle */
+	height: 45px; /* Adjust the size of the circle */
+	background-color: #EF6D58; /* Set the background color */
+	color: #fff; /* Set the icon color */
+	border-radius: 50%; /* Makes the div a circle */
+	font-size: 20px; /* Adjust the size of the Font Awesome icon */
+	text-align: center;
+  }
+  .icon-circle i{
+	color:#fff
+  }
+  #how_we_work ul li span{
+	padding-left:none !important;
+  }
